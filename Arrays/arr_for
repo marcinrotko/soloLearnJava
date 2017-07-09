@@ -1,0 +1,13 @@
+public class Arr {
+    public static void main(String[] args) {
+        int tab[] = new int[5];
+        tab[0] = 6;
+        tab[1] = 7;
+        tab[2] = 43;
+        tab[3] = 51;
+        tab[4] = 2;
+        for (int i : tab){
+            System.out.println("Element tablicy = " + i);
+        }
+    }
+}
